@@ -10,17 +10,17 @@
         <div class="container">
             <div id="branding">
 
-                <h1>    <img src="static/Navi_test.png" alt="NaviTest Logo" class="logo">
+                <h1>    <img src="static/naviTest_new.png" alt="NaviTest Logo" class="logo">
 
                     <span class="highlight">NaviTest</span></h1>
             </div>
             <nav>
                 <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="product.html">Try it out</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/product">Try it out</a></li>
 
                 </ul>
             </nav>
@@ -32,9 +32,18 @@
     </div>
 
     <div class="container">
-        <p>askvyas asvkay svknsdjvnujfnvdn;kbjhnjkfvnusdjvihebv jmsdjfviboivnjuion.</p>
-    </div>
+        <p>NaviTest is an initative started to solve the issues in ADAS and AV systems, aiming to reduce the dependability of a simulated environment for testing.</p>
+        <p>NaviTest Aims to use Video inputs from real world AV's and Simulated vehicles </p>
 
+    </div>
+    <div class="container">
+    <form action="/upload-video" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="video/*">
+        <button type="submit">Upload Video</button>
+    </form>
+</div>
+
+    
     <footer>
         <p>NaviTest © 2023. All Rights Reserved.</p>
     </footer>

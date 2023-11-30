@@ -16,6 +16,24 @@ def allowed_file(filename):
 def index():
     return send_from_directory('../website', 'index.html')
 
+
+@app.route('/about')
+def about():
+    return send_from_directory('../website', 'about.html')
+
+@app.route('/contact')
+def contact():
+    return send_from_directory('../website', 'contact.html')
+
+@app.route('/product')
+def product():
+    return send_from_directory('../website', 'product.html')
+
+@app.route('/services')
+def services():
+    return send_from_directory('../website', 'services.html')
+
+
 @app.route('/upload-video', methods=['POST'])
 def upload_video():
     if 'file' not in request.files:
