@@ -3,7 +3,7 @@
 #include <string>
 
 int main() {
-    std::string filename = "uploads/robot_video_2023-11-21_16-09-38.avi"; 
+    std::string filename = "/backend/uploads/robot_video_2023-11-21_16-09-38.avi"; 
     std::ifstream file(filename, std::ios::binary);
 
     if (file.is_open()) {

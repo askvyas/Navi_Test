@@ -18,7 +18,7 @@
                     <li><a href="/about">About</a></li>
                     <li><a href="/services">Services</a></li>
                     <li><a href="/contact">Contact</a></li>
-                    <li><a href="current">Try it out</a></li>
+                    <li><a href="/product">Try it out</a></li>
 
                 </ul>
             </nav>
@@ -30,8 +30,15 @@
     </div>
 
     <div class="container">
-        <p>askvyas asvkay svknsdjvnujfnvdn;kbjhnjkfvnusdjvihebv jmsdjfviboivnjuion.</p>
+        <p>Upload a video of the simulation or real world </p>
     </div>
+    <div class="container">
+        <form action="/upload-video" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept="video/*">
+            <button type="submit">Upload Video</button>
+        </form>
+    </div>
+    
 
     <footer>
         <p>NaviTest © 2023. All Rights Reserved.</p>

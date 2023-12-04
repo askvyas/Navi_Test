@@ -1,7 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #333; 
 }
+
+
+
+header {
+    background: #0056b3; 
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header a {
+    font-size: 18px;
+    padding: 10px 15px; 
+}
+
+header a:hover {
+    background-color: #e6f0ff; 
+}
+
+.banner {
+    background: linear-gradient(to right, #007bff, #6699ff);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+form input[type="file"], form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+form button {
+    background-color: #ff9800; 
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e68a00;
+}
+
+footer {
+    padding: 30px 0;
+}
+
+
+
 
 .container {
     width: 80%;
@@ -9,20 +63,7 @@ body {
     overflow: hidden;
 }
 
-header {
-    background: #333;
-    color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #bbb 1px solid;
-}
 
-header a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-}
 
 header ul {
     padding: 0;
@@ -57,15 +98,11 @@ header a:hover {
     font-weight: bold;
 }
 
-.banner {
-    padding: 10px;
-    margin-bottom: 20px;
-    background: #e8491d;
-    color: #fff;
-    text-align: center;
-}
+
 .logo {
     /* 100*100 px logo trial --> too big*/
+    /* 70*50 px logo trial --> a bit better*/
+
     width: 70px; 
     height: 50px; 
 
